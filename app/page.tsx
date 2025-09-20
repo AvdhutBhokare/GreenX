@@ -199,12 +199,8 @@ function LoginScreen({ onLogin }: { onLogin: (role: "student" | "teacher") => vo
     <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-orange-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center mb-4">
-            <div className="bg-primary rounded-full p-3">
-              <LeafIcon />
-            </div>
-          </div>
-          <h1 className="text-3xl font-bold text-primary mb-2">EcoQuest</h1>
+          
+          <h1 className="text-3xl font-bold text-primary mb-2">GreenX</h1>
           <p className="text-muted-foreground">Join the environmental awareness movement</p>
         </div>
 
