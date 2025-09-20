@@ -290,7 +290,7 @@ function StudentDashboard() {
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right")
 
   const [studentProfile, setStudentProfile] = useState({
-    name: "John Smith",
+    name: "Avdhut Bhokare",
     college: "MIT College of Engineering, Pune",
     verified: true,
     studentId: "MIT2024001",
