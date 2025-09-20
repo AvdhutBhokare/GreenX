@@ -14,4 +14,4 @@ Built with **React + TypeScript + TailwindCSS**, GreenX focuses on creating an e
 - 🌍 **Real-world Eco Tasks** – Plantation drives, cleanliness campaigns, and awareness seminars.  
 - 🏫 **School/College Leaderboards** – Collective EcoPoints of students = Institution rank.  
 - 🎁 **Rewards & Partnerships** – NGOs provide plants; brands sponsor gift vouchers, bags, and educational material.  
-- 📊 **Impact Tracking** – Schools and colleges can track their carbon footprint savings.  
+- 📊 **Impact Tracking** – Schools and colleges can track their carbon footprint savings.

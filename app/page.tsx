@@ -9,14 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 
 const LeafIcon = () => (
-  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-    />
-  </svg>
+  null
 )
 
 const UsersIcon = () => (
@@ -410,7 +403,7 @@ function StudentDashboard() {
             <div className="animate-float">
               <LeafIcon />
             </div>
-            <h1 className="text-xl font-bold tracking-wide">🌱 EcoWarrior</h1>
+            <h1 className="text-xl font-bold tracking-wide">GreenX</h1>
           </div>
           <div className="flex items-center gap-4">
             <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
@@ -1588,9 +1581,7 @@ const LeaderboardView = () => {
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-3xl animate-float" style={{ animationDelay: `${index * 0.5}s` }}>
-                {student.avatar}
-              </div>
+              
               <div className="flex-1">
                 <h4 className="font-bold text-lg">{student.name}</h4>
                 <p className="text-sm text-muted-foreground">{student.college}</p>
